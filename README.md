@@ -63,14 +63,14 @@ The workflow is divided into four main stages:
 ###   Step Functions Flow (Architecture Overview)
 This diagram shows the high-level orchestration of the ML pipeline across AWS services.
 
-![Step Function Flow](step fuction flow.png)
+![Step Function Flow](step-function-flow.png)
 
 ---
 
 ###   Step Functions Working (Execution Flow)
 This diagram shows the runtime execution of the Step Functions state machine, illustrating how Lambda functions are triggered in sequence.
 
-![Step Function Working](step function working.png)
+![Step Function Working](step-function-working.png)
 
 ---
 
