@@ -1,11 +1,11 @@
-# 🚀 Build a ML Workflow for Scones Unlimited on Amazon SageMaker
+#  Build a ML Workflow for Scones Unlimited on Amazon SageMaker
 
-## 📌 Overview
+## Overview
 This project demonstrates an end-to-end machine learning workflow built on AWS using Amazon SageMaker. It is part of the AWS Advanced AI/ML Nanodegree program and simulates a real-world production ML system for a fictional logistics company, **Scones Unlimited**, where the goal is to classify vehicle types from images to support automated delivery operations.
 
 ---
 
-## 🎯 Objective
+##  Objective
 To design and implement a scalable, production-style machine learning pipeline that includes:
 - Data ingestion and preprocessing
 - Model training using Amazon SageMaker
@@ -14,7 +14,7 @@ To design and implement a scalable, production-style machine learning pipeline t
 
 ---
 
-## 🛠️ Tech Stack
+##   Tech Stack
 - Python
 - Amazon SageMaker
 - Amazon S3
@@ -25,7 +25,7 @@ To design and implement a scalable, production-style machine learning pipeline t
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 The workflow is divided into four main stages:
 
@@ -60,21 +60,21 @@ The workflow is divided into four main stages:
 
 ## 🖼️ Workflow Visualizations
 
-### 📌 Step Functions Flow (Architecture Overview)
+###   Step Functions Flow (Architecture Overview)
 This diagram shows the high-level orchestration of the ML pipeline across AWS services.
 
-![Step Functions Flow](step function flow.png)
+![Step Function Flow](step fuction flow.png)
 
 ---
 
-### 📌 Step Functions Working (Execution Flow)
+###   Step Functions Working (Execution Flow)
 This diagram shows the runtime execution of the Step Functions state machine, illustrating how Lambda functions are triggered in sequence.
 
-![Step Functions Working](step function working.png)
+![Step Function Working](step function working.png)
 
 ---
 
-## 📊 Results / Outcome
+##  Results / Outcome
 - Built a fully automated, event-driven ML pipeline on AWS
 - Successfully deployed a scalable image classification model
 - Implemented serverless inference workflow using Lambda and Step Functions
@@ -82,7 +82,7 @@ This diagram shows the runtime execution of the Step Functions state machine, il
 
 ---
 
-## 🔑 Key Learnings
+##  Key Learnings
 - End-to-end ML system design on AWS
 - Model training and deployment using SageMaker
 - Serverless ML architecture using Lambda and Step Functions
